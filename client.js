@@ -10,10 +10,6 @@ const connect = function() {
   conn.on('connect', () => { //Emitted when a socket connection is successfully established.
     console.log("Successfully connected to game server");
     console.log("Name: FQY");
-
-    // setInterval(() => { // animates the snake to move up continuously 
-    //   conn.write("Move: up");
-    // }, 500);
   });
 
   conn.on("data", (data) => { //used when data is received

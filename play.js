@@ -6,8 +6,5 @@ const { setupInput } = require("./input");
 console.log("Connecting ...");
 const conn = connect();
 setupInput(conn);
-// establishes a connection with the game server
 
-// connect();
-
-
+//connect() returns an object that can be used to interact with the server
